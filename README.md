@@ -60,12 +60,12 @@ compensation and what this function needs to return is the weekly compensation
 (assuming there are 52 weeks per year).
 
 
-Salary TaxRate
-$45, 000 or less 18%
-> $45,000 and <= $82,000 18% for the first 45000, 28% for the rest
-> $ 82,000 18% for the first 45000, 28% for the amount
+<table><tr><th>Salary</th> <th>TaxRate</th></tr>
+<tr><td>$45, 000 or less</td> <td>18%</td></tr>
+<tr><td> > $45,000 and <= $82,000</td> <td>18% for the first 45000, 28% for the rest</td></tr>
+<tr><td> > $ 82,000</td> <td>18% for the first 45000, 28% for the amount
 between 45000 and 82000, and 33% for the
-rest
+rest</td></tr></table>
 For example, someone whose salary is $123,000 will pay 18% on the first 45,000, 28% on the
 next (82,000 – 45,000) and 33% on the remaining (123,000 – 82,000)
 o HourlyEmployee: Compensation is hoursWorked times hourlyRate for the first 40 hours.
