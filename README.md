@@ -1,13 +1,12 @@
 
 
-<b>Overview of the final exam:</b>
+<h2>Overview:</h2>
 
 • In this final exam you will create an employee database application by fulfilling the
-requirements given below. You must first create the classes as described. Because this
-final exam is an extension of homework 4, you can copy your homework 4 code here or
-use the code provided by homework 4 solution. Given there are more requirements in this
+requirements given below. You must first create the classes as described. Given there are more requirements in this
 final exam, please read the whole document carefully and adjust your previously code
 accordingly.
+</br>
 • After creating required classes, write a program that will use these classes to build an
 application for an Employee Database. All employee data is stored in a file called
 “empdata.dat”. This file is provided and will be used to test your program (don’t change
@@ -28,41 +27,39 @@ data file. This setting doesn’t reflect the real use case, but it fits the fin
 (i.e. you will never change the original empdata.dat file so you can debug your program
 until you get the correct outputs).
 
-2
-• The final exam will provide you a detailed program template to follow. What you need to
-do is to “fill in the blanks” and submit a completed version of the template. This template
-splits coding task and testing task into small pieces so you don’t need to worry about how
-to complete and test a “huge” program. Just make sure you read the template carefully
-and follow all the instructions closely. The program template and this pdf document
-should complement each other; if they contradict somewhere, please let me know.
-Requirements of the final exam:
-First step, create the classes as described.
-• Create a base class Employee that has the following attributes:
-o Employee’s name (string)
-o Employee’s address (string)
-o Vehicle data (Vehicle object).
+
+• This program splits coding task and testing task into small pieces so you don’t need to worry about how
+to complete and test a “huge” program. Just make sure you read and follow all the instructions closely. The program template and this document should complement each other.
+
+<b><h3>Requirements:</h3></b>
+  
+</br><b>First step, create the classes as described.</b></br>
+• Create a base class Employee that has the following attributes:<br>
+o Employee’s name (string)<br>
+o Employee’s address (string)<br>
+o Vehicle data (Vehicle object).<br>
 • The child classes FullTimeEmployee, HourlyEmployee and Consultant that inherit from
-Employee class have the following additional properties
-o FullTimeEmployee – salary (float).
-o HourlyEmployee - hoursWorked (int) and hourlyRate (float).
-o Consultant – hoursWorked (int) and ProjectType (valid values are 1, 2, and 3).
+Employee class have the following additional properties<br>
+o FullTimeEmployee – salary (float).<br>
+o HourlyEmployee - hoursWorked (int) and hourlyRate (float).<br>
+o Consultant – hoursWorked (int) and ProjectType (valid values are 1, 2, and 3).<br><br>
 • The child class Management inherits from both FullTimeEmployee class and Consultant
 class. Management class has inherited three attributes (i.e. name, address, and vehicle object)
 indirectly from Employ class, one attribute (i.e. salary) from FullTimeEmployee class and
-two attributes (i.e. hours worked and project type) from Consultant class.
+two attributes (i.e. hours worked and project type) from Consultant class.<br><br>
 • All these classes have the __init__ method as well as the get and set methods. In addition,
 they have additional methods, i.e. get_compensation() and get_reimbursement() as described
 below. Function get_compensation() returns weekly compensation and function
-get_reimbursement() returns weekly reimbursement.
+get_reimbursement() returns weekly reimbursement.<br><br>
 • Compensation (weekly) for any employee type doesn’t call for “outside” information. In
 other words, all information needed is available after initializing/creating an object.
-Compensation is to be computed as follows:
+Compensation is to be computed as follows:<br>
 o FullTimeEmployee: Compensation is salary minus taxes and taxes are calculated based
 on the tax rate in the table below. Please notice that this format calculates the annual
 compensation and what this function needs to return is the weekly compensation
 (assuming there are 52 weeks per year).
 
-3
+
 Salary TaxRate
 $45, 000 or less 18%
 > $45,000 and <= $82,000 18% for the first 45000, 28% for the rest
