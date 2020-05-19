@@ -2,10 +2,8 @@
 
 <h2>Overview:</h2>
 
-• In this final exam you will create an employee database application by fulfilling the
-requirements given below. You must first create the classes as described. Given there are more requirements in this
-final exam, please read the whole document carefully and adjust your previously code
-accordingly.
+• In this you will create an employee database application by fulfilling the
+requirements given below. You must first create the classes as described. Given there are more requirements in this, please read the whole document carefully and adjust your code accordingly.
 </br>
 • After creating required classes, write a program that will use these classes to build an
 application for an Employee Database. All employee data is stored in a file called
@@ -26,7 +24,6 @@ employees. When you exit the application, all these employees will be stored in 
 data file. This setting doesn’t reflect the real use case, but it fits the final exam purpose
 (i.e. you will never change the original empdata.dat file so you can debug your program
 until you get the correct outputs).
-
 
 • This program splits coding task and testing task into small pieces so you don’t need to worry about how
 to complete and test a “huge” program. Just make sure you read and follow all the instructions closely. The program template and this document should complement each other.
@@ -115,7 +112,7 @@ aggregation to include a Vehicle object to your Employee data. <br>
 Second step, write a program to take user inputs to work on the Employee Database:
 (The information here just provides some simple guidelines; see program template for
 more detailed and specific requirements.)<br>
-<h3>The Employee Database application contains seven options:</h3><br>
+<h3>The Employee Database application contains seven options:</h3>
 Option 1: Accept input for new Employees. If the user chooses option 1, the program should ask
 the type of employee first and then guide the user to provide all required information. New
 employee will be added to a temporary “object container” and written into a new database when
