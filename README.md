@@ -33,7 +33,7 @@ to complete and test a “huge” program. Just make sure you read and follow al
 • Create a base class Employee that has the following attributes:<br>
 o Employee’s name (string)<br>
 o Employee’s address (string)<br>
-o Vehicle data (Vehicle object).<br>
+o Vehicle data (Vehicle object).<br><br>
 • The child classes FullTimeEmployee, HourlyEmployee and Consultant that inherit from
 Employee class have the following additional properties<br>
 o FullTimeEmployee – salary (float).<br>
