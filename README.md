@@ -76,7 +76,7 @@ given in the table below:<br>
 <tr><td> 3 </td><td> $85.00 </td></tr></table>
 o Management: Total weekly compensation is the sum of the compensation from
 FullTimeEmployee role (i.e. from salary) and the compensation from Consultant role (i.e.
-from hours worked on a project).<br>
+from hours worked on a project).<br><br>
 • Reimbursement (weekly) for every employee type calls for “outside” information as input
 argument(s). In other words, the information is not provided when initializing/creating an
 object and there is no corresponding attribute. Reimbursement is to be computed as follows:<br>
