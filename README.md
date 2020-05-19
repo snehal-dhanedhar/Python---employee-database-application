@@ -31,9 +31,8 @@ until you get the correct outputs).
 • This program splits coding task and testing task into small pieces so you don’t need to worry about how
 to complete and test a “huge” program. Just make sure you read and follow all the instructions closely. The program template and this document should complement each other.
 
-<b><h3>Requirements:</h3></b>
-  
-</br><b>First step, create the classes as described.</b></br>
+<h3>Requirements:</h3>
+<b>First step, create the classes as described.</b></br>
 • Create a base class Employee that has the following attributes:<br>
 o Employee’s name (string)<br>
 o Employee’s address (string)<br>
@@ -57,9 +56,7 @@ Compensation is to be computed as follows:<br>
 o FullTimeEmployee: Compensation is salary minus taxes and taxes are calculated based
 on the tax rate in the table below. Please notice that this format calculates the annual
 compensation and what this function needs to return is the weekly compensation
-(assuming there are 52 weeks per year).
-
-
+(assuming there are 52 weeks per year).<br>
 <table><tr><th>Salary</th> <th>TaxRate</th></tr>
 <tr><td>$45, 000 or less</td> <td>18%</td></tr>
 <tr><td> > $45,000 and <= $82,000</td> <td>18% for the first 45000, 28% for the rest</td></tr>
@@ -79,7 +76,7 @@ given in the table below:<br>
 <table><tr><th>Project Type </th><th> HourlyRate</th></tr>
 <tr><td>1 </td><td> $55.00 </td></tr>
 <tr><td> 2 </td><td> $70.00 </td></tr>
-<tr><td> 3 </td><td> $85.00 </td></tr></table><br>
+<tr><td> 3 </td><td> $85.00 </td></tr></table>
 o Management: Total weekly compensation is the sum of the compensation from
 FullTimeEmployee role (i.e. from salary) and the compensation from Consultant role (i.e.
 from hours worked on a project).<br>
@@ -92,7 +89,7 @@ the annual expense. If the annual expense is more than $10,000, then the total r
 (assuming there are 52 weeks per year). For example, someone whose annual expense is $12,000 will get $10,000 plus 50% on the remaining ($12,000 – $10,000), totaling $11,000. <br>
 <table><tr><th>Expense</th> <th>Reimbursement Rate</th></tr>
 <tr><td>$10, 000 or less</td><td> 100% </td></tr>
-<tr><td> > $10,000</td> <td>100% for the first $10,000, 50% for the rest </td></tr> </table><br>
+<tr><td> > $10,000</td> <td>100% for the first $10,000, 50% for the rest </td></tr> </table>
 o HourlyEmployee: This method will take an argument which is the weekly expense. If the
 weekly expense is no more than $100, then the total reimbursement will be equal to the
 weekly expense. If the weekly expense exceeds $100, then the total reimbursement will
